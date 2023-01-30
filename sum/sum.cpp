@@ -1,15 +1,11 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int a;
-    int b;
+
+int fsum(int a ){
+
     int sum=0;
-    cout<<"Enter a number a>=1: \n";
-    cin>>a;
-    cout<<"Enter b number b>=1: \n";
-    cin>>b;
     
-    for(int i=a;i<b+1;i++){
+    for(int i=1;i<a+1;i++){
 
 
         sum+=i;
@@ -17,7 +13,25 @@ int main(){
 
 
     }
-    cout<<"The sum from "<<a<< " to "<<b<<" is "<<sum;
+    return sum;
+
+
+
+
+
+}
+
+int main(){
+    int a;
+    cout<<"Enter a number a>=1: \n";
+    cin>>a;
+
+    int sum=fsum(a);
+
+
+    
+    
+    cout<<"The sum from 1  to "<<a<<" is "<<sum;
 
     system("pause");
     return 0;
