@@ -25,18 +25,19 @@ int main(){
     int a;
     cout<<"Enter a number a>=1: \n";
     cin>>a;
+    while(a<1){
+        cout<<"It is not a number >=1 \n";
+        cout<<"Enter a number a>=1: \n";
+        cin>>a;
 
-    if(a>=1){
-        int sum=fsum(a);
+
+    }
 
     
-        cout<<"The sum from 1  to "<<a<<" is "<<sum;
+    int sum=fsum(a);
+    cout<<"The sum from 1  to "<<a<<" is "<<sum;
 
-    }
-    else{
-        cout<<"The number is not >=1";
-    }
-
+    
     
 
     system("pause");
