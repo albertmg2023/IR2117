@@ -26,12 +26,18 @@ int main(){
     cout<<"Enter a number a>=1: \n";
     cin>>a;
 
-    int sum=fsum(a);
-
+    if(a>=1){
+        int sum=fsum(a);
 
     
+        cout<<"The sum from 1  to "<<a<<" is "<<sum;
+
+    }
+    else{
+        cout<<"The number is not >=1";
+    }
+
     
-    cout<<"The sum from 1  to "<<a<<" is "<<sum;
 
     system("pause");
     return 0;
