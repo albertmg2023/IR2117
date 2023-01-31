@@ -3,9 +3,16 @@ using namespace std;
 int main(){
     int a ;
     int b;
-    cout<<"Enter a number >=1: ";
+    cout<<"Enter a number >=1: \n";
     cin>>a;
-    cout<<"Enter b number >=1: ";
+    while(a<1){
+        cout<<" a is not >=1 \n";
+        cout<<"Enter a number >=1: \n";
+        cin>>a;
+
+
+    }
+    cout<<"Enter b number >=1: \n";
     cin>>b;
 
     int sum=0;
@@ -16,7 +23,7 @@ int main(){
 
     }
 
-    cout<<"The sum from "<<a<<" to "<<b<<" is  : "<<sum;
+    cout<<"The sum from "<<a<<" to "<<b<<" is  : "<<sum<<"\n";
 
 system("pause");
 return 0;
