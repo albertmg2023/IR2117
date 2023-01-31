@@ -14,8 +14,15 @@ int main(){
     }
     cout<<"Enter b number >=1: \n";
     cin>>b;
-    while(b<1){
-        cout<<" b is not >=1 \n";
+    while(b<1 or b<a){
+        if(b<1){
+            cout<<" b is not >=1 \n";
+
+        }
+        else if(b<a){
+            cout<<" b is not >=a \n";
+        }
+        
         cout<<"Enter b number >=1: \n";
         cin>>b;
 
