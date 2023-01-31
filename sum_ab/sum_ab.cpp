@@ -14,6 +14,14 @@ int main(){
     }
     cout<<"Enter b number >=1: \n";
     cin>>b;
+    while(b<1){
+        cout<<" b is not >=1 \n";
+        cout<<"Enter b number >=1: \n";
+        cin>>b;
+
+
+    }
+
 
     int sum=0;
 
