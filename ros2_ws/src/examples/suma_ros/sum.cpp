@@ -7,7 +7,7 @@ void topic_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
 
   sum+=msg->data;
-  std_msgs::msg::Int32::SharedPtr msg
+  std_msgs::msg::Int32::SharedPtr message
   message.data=sum;
   publisher->publish(message);
   
