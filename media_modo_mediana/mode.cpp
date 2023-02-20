@@ -32,10 +32,15 @@ int main(int argc,char** argv){
         }
 
     }
-    //cuento el numero de elementos del primer elemento de elements
-    i=0;
-    while(elements[i]==elements[0]){
+    //cuento el numero de elementos desde el elemento i de elements
+    cout<<"dame la posicion de un elemento en elementos y te diré cuantas veces se repite";
+    int pos;
+    cin>>pos;
+    
+    int posactual=pos;
+    while(elements[posactual]==elements[pos]){
         m+=1;
+        posactual+=1;
     }
     
 
