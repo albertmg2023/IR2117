@@ -8,7 +8,7 @@ int main(int argc,char** argv){
 
     for(int i=1;i<=n;i++){
 
-        s+=argv[i];
+        s+=atoi(argv[i]);
 
     }
     m=s/n;
