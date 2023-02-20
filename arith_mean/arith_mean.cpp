@@ -7,7 +7,7 @@ int main(int argc,char** argv){
     int n=argc-1 ,element;
     cin>>element;
 
-    while(!cin.eof()){
+    while(not cin.eof()){
         n+=1;
         s+=element;
         cin>>element;
