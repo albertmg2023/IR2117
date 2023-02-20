@@ -6,15 +6,14 @@ int main(int argc,char** argv){
 
     int n=argc-1 ,element;
     cin>>element;
-    
-    while(element>0){
+
     while(!cin.eof()){
         n+=1;
         s+=element;
         cin>>element;
 
     }   
-    }
+    
 
     m=s/n;
 
