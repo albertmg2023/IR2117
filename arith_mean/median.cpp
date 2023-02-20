@@ -34,16 +34,14 @@ int main(int argc,char** argv){
     }
     
     
-    
-    
-    cout<<"Median : "<<m<<endl;
-
     if(elements.size()%2==0){
-        cout<<"hay numero par de elementos diferentes";
+        cout<<"hay numero par de elementos "<<endl;
+        m=(1/2)*(elements[elements.size()/2]+elements[(elements.size()/2)+1]);
+        cout<<"La mediana es:  "<<m;
 
     }
     else{
-         cout<<"hay numero impar de elementos diferentes";
+         cout<<"hay numero impar de elementos";
 
     }
 
