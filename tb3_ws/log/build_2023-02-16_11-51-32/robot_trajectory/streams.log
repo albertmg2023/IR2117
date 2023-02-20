@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory
+[0.408s] -- The C compiler identification is GNU 9.4.0
+[0.728s] -- The CXX compiler identification is GNU 9.4.0
+[0.745s] -- Check for working C compiler: /usr/bin/cc
+[1.073s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.079s] -- Detecting C compiler ABI info
+[1.398s] -- Detecting C compiler ABI info - done
+[1.426s] -- Detecting C compile features
+[1.426s] -- Detecting C compile features - done
+[1.439s] -- Check for working CXX compiler: /usr/bin/c++
+[1.731s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.740s] -- Detecting CXX compiler ABI info
+[2.022s] -- Detecting CXX compiler ABI info - done
+[2.055s] -- Detecting CXX compile features
+[2.056s] -- Detecting CXX compile features - done
+[2.084s] CMake Error at CMakeLists.txt:19 (find_package):
+[2.084s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.084s]   has asked CMake to find a package configuration file provided by
+[2.084s]   "ament_cmake", but CMake did not find one.
+[2.084s] 
+[2.084s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.084s]   any of the following names:
+[2.084s] 
+[2.084s]     ament_cmakeConfig.cmake
+[2.084s]     ament_cmake-config.cmake
+[2.084s] 
+[2.084s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.084s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.085s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.085s]   has been installed.
+[2.085s] 
+[2.085s] 
+[2.085s] -- Configuring incomplete, errors occurred!
+[2.085s] See also "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles/CMakeOutput.log".
+[2.087s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory
