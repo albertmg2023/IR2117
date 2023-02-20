@@ -41,7 +41,10 @@ int main(int argc,char** argv){
 
     }
     else{
-         cout<<"hay numero impar de elementos";
+        cout<<"hay numero impar de elementos";
+        m=elements[((elements.size()/2)+1)/2];
+        cout<<"La mediana es:  "<<m;
+
 
     }
 
