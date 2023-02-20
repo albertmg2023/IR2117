@@ -33,7 +33,52 @@ int main(int argc,char** argv){
 
     }
     
+    //vector de numeros  diferentes de elements 
+    vector<int>diferentes;
+
+    //vector de cantidades de diferentes
+
+    vector<int>cants;
+
+    //cantidad del numero actual
+    int cant=0;
+    int actual=elements[0];
+    int anterior=elements[0];
+
+    diferentes.push_back(anterior);
+
+    for(int k=0;k<elements.size();k++){
+
+        actual=elements[i];
+        if(actual!=anterior){
+
+            cants.push_back(cant);
+            diferentes.push_back(anterior);
+            cant=0;
+        }
+        else{
+
+            cant+=1;
+
+
+        }
+        anterior=actual;
+
+    }
+
+
+    
+    
     cout<<"Median : "<<m<<endl;
+
+    if(diferentes.size()%2==0){
+        cout<<"hay numero par de elementos diferentes";
+
+    }
+    else{
+         cout<<"hay numero impar de elementos diferentes";
+
+    }
 
 
     system("pause");
