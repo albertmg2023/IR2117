@@ -32,16 +32,37 @@ int main(int argc,char** argv){
         }
 
     }
-    //cuento el numero de elementos desde el elemento i de elements
-    cout<<"dame la posicion de un elemento en elementos y te diré cuantas veces se repite";
-    int pos;
-    cin>>pos;
-    
-    int posactual=pos;
-    while(elements[posactual]==elements[pos]){
-        m+=1;
-        posactual+=1;
+    int cant=0;
+    m=elements[0];
+    int maxcant=0;
+    int actual;
+    int anterior=elements[0];
+    for(int i=0;i<elements.size();i++){
+        actual=elements[i];
+        if(actual==anterior){
+
+            cant+=1;
+
+
+        }
+        //cuando el numero es diferente al anterior
+        else{
+            if(cant>maxcant){
+                maxcant=cant;
+                m=elements[i];
+            }
+            cant=0;
+        }
+
+
+
     }
+    //el bucle anterior de deja por comprobar si el ultimo número se repite mas que el anterior mas repetido
+
+    if(cant>maxcant){
+        m=elements[elements.size()-1];
+    }
+    
     
 
     cout<<"MODE : "<<m<<endl;
