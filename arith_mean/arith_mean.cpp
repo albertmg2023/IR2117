@@ -1,19 +1,25 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 int main(int argc,char** argv){
-
+    vector<int> elements;
     double m=0 ,s=0;
 
     int n=argc-1 ,element;
     cin>>element;
 
     while(not cin.eof()){
+        elements.push_back(element);
         n+=1;
-        s+=element;
         cin>>element;
 
     }   
     
+    for(int i=0;i<n;i++){
+
+        s+=elements[i];
+
+    }
 
     m=s/n;
 
