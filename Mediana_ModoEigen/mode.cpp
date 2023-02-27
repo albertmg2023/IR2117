@@ -1,6 +1,7 @@
 #include <iostream>
 #include<Eigen/Dense>
 #include <unordered_map>
+#include<vector>
 using namespace std;
 using namespace Eigen;
 
