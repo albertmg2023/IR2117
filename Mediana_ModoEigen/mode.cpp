@@ -1,7 +1,8 @@
 #include <iostream>
 #include<Eigen/Dense>
 #include <unordered_map>
-using namespace std,Eigen;
+using namespace std;
+using namespace Eigen;
 
 double Mode( VectorXd& v){
 
