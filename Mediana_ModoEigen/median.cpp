@@ -4,10 +4,7 @@
 
 using namespace std,Eigen;
 
-bool compare(double a,double b){
 
-    return a<b;
-}
 
 
 double Mediana(VectorXd& v){
@@ -15,7 +12,8 @@ double Mediana(VectorXd& v){
 
     int n=v.size();
 
-    sort(v.data(),v.data()+n, compare);
+    sort(begin(v),end(v));
+    
 
     
 
