@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>examples_topics</name>
+  <version>0.0.1</version>
+  //nombre del paquete
+  <description>Examples of topics publisher and subscriber</description>
+  //el que mantiene el codigo
+  <maintainer email="ecervera@uji.es">Enric Cervera</maintainer>
+
+  <license>Apache License 2.0</license>
+   //el que ha creado el codigo
+  <author email="ecervera@uji.es">Enric Cervera</author>
+   // se especifican las dependencias ,es decir los paquetes que se van a utikilizar
+   
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  //dependencias de construccion del codigo
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  //dependencias para la ejecucion
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
