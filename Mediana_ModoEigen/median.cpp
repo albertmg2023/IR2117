@@ -1,20 +1,24 @@
 #include <iostream>
 #include<Eigen/Dense>
-#include<vector>
+#include <algorithm>
 
 using namespace std,Eigen;
 
 double Mediana(VectorXd& v){
 
-    vector<double> vec(v.data(),v.dada()+v.size());
-    sort(vec.begin(),vec.end());
 
-    if(v.size()%2==0){
+    int n=v.size();
 
-        return (vec[v.size()/2-1] + vec[v.size()/2])/2;
+    sort(v.data(),v.data()+n, [](double a,double b){ return a<b;});
+
+    
+
+    if(n%2==0){
+
+        return (v(n/2-1) + v(n/2))/2;
     }
     else{
-        return vec[v.size()/2];
+        return vec(n/2);
     }
 
 
