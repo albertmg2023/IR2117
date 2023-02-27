@@ -16,7 +16,7 @@ double Mode( VectorXd& v){
 
     }
 
-    double modo=0;
+    double mode=0;
     int maxFreq=0;
 
     for(auto& pair : freqMap){
