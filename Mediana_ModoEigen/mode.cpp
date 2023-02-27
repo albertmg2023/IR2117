@@ -1,7 +1,6 @@
 #include <iostream>
 #include<Eigen/Dense>
 #include <unordered_map>
-#include<vector>
 using namespace std;
 using namespace Eigen;
 
@@ -40,13 +39,14 @@ int main(){
         cout<<"dame el tamaño de tu vector";
         cin>>n;
         double num;
-        vector<double> nums;
+        VectorXd nums(n);
 
         for(int i=0;i<n;i++){
             cin>>num;
-            nums.push_back(num);
+            nums(i)=num;
 
         }
+        
 
 
 
