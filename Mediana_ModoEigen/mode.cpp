@@ -7,9 +7,9 @@ double Mode( VectorXd& v){
 
     unordered_map<double,int> freqMap;
 
-    for(int i=0;i<v.size();i++){
+    for(auto x:v){
 
-        freqMap[v(i)]++;
+        freqMap[x]++;
 
 
     }
