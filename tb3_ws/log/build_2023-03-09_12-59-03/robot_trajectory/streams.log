@@ -1,0 +1,63 @@
+[0.017s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.208s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.288s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.359s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.474s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.474s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.652s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.689s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.762s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.789s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.889s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.893s] -- Looking for pthread.h
+[0.974s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.061s] -- Looking for pthread_create in pthreads
+[1.117s] -- Looking for pthread_create in pthreads - not found
+[1.118s] -- Looking for pthread_create in pthread
+[1.195s] -- Looking for pthread_create in pthread - found
+[1.196s] -- Found Threads: TRUE  
+[1.305s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.330s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.384s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.462s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.462s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.463s] -- Configured cppcheck include dirs: 
+[1.463s] -- Configured cppcheck exclude dirs and/or files: 
+[1.463s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.463s] -- Configured cpplint exclude dirs and/or files: 
+[1.463s] -- Added test 'lint_cmake' to check CMake code style
+[1.464s] -- Added test 'uncrustify' to check C / C++ code style
+[1.464s] -- Configured uncrustify additional arguments: 
+[1.464s] -- Added test 'xmllint' to check XML markup files
+[1.467s] -- Configuring done
+[1.473s] -- Generating done
+[1.475s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory
+[1.484s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory
+[1.486s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[1.525s] [35m[1mScanning dependencies of target square_odom[0m
+[1.553s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/square_odom.cpp.o[0m
+[1.622s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/Odometry.hpp: No existe el archivo o el directorio
+[1.622s]     4 | #include [01;31m[K"nav_msgs/msg/Odometry.hpp"[m[K
+[1.622s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.622s] compilation terminated.
+[1.624s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/square_odom.cpp.o] Error 1
+[1.624s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+[1.625s] make: *** [Makefile:141: all] Error 2
+[1.628s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6

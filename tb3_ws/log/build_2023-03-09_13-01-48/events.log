@@ -1,0 +1,476 @@
+[0.000000] (-) TimerEvent: {}
+[0.001524] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.001598] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.011606] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.012359] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'build'}
+[0.012914] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory', '--', '-j6', '-l6'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2823'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2640'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:58232'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob08.act.uji.es:@/tmp/.ICE-unix/2903,unix/labrob08.act.uji.es:/tmp/.ICE-unix/2903'), ('INVOCATION_ID', '7aa4be9e49c34636b80525008af2f7e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e24005f_cfaf_41a3_bce5_4197f105625b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.239'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055109] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target square_odom\x1b[0m\n'}
+[0.080955] (robot_trajectory) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/square_odom.dir/square_odom.cpp.o\x1b[0m\n'}
+[0.098777] (-) TimerEvent: {}
+[0.199066] (-) TimerEvent: {}
+[0.299328] (-) TimerEvent: {}
+[0.399599] (-) TimerEvent: {}
+[0.499933] (-) TimerEvent: {}
+[0.600200] (-) TimerEvent: {}
+[0.700460] (-) TimerEvent: {}
+[0.800730] (-) TimerEvent: {}
+[0.900999] (-) TimerEvent: {}
+[1.001286] (-) TimerEvent: {}
+[1.101560] (-) TimerEvent: {}
+[1.126423] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.126617] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:18:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.126681] (robot_trajectory) StderrLine: {'line': b'   18 |  \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<m;\n'}
+[1.126732] (robot_trajectory) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.126779] (robot_trajectory) StderrLine: {'line': b'      |  \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[1.126826] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.126874] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.126923] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.126969] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.127014] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.127062] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.127107] (robot_trajectory) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;  /// Linked to standard output\n'}
+[1.127152] (robot_trajectory) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.147425] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.147583] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdoble\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.147784] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<\x1b[01;31m\x1b[Kdoble\x1b[m\x1b[K>();\n'}
+[1.147862] (robot_trajectory) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.147913] (robot_trajectory) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[1.147960] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::get<<expression error> >() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.148008] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.148054] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.148098] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.148142] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.148186] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.148230] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.148276] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.148322] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.148366] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.148410] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.148461] (robot_trajectory) StderrLine: {'line': b'  148 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.148516] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.148563] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.148609] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.148666] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.148738] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.148790] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.148846] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.148895] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.148942] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.148988] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.149033] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.149078] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.149123] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.149171] (robot_trajectory) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.149215] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.149259] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.149305] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.149351] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.149397] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.149441] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.149486] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.149530] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.149575] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.149619] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.149664] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.149709] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.149754] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.149805] (robot_trajectory) StderrLine: {'line': b'  170 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.149850] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.149899] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.149945] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.149992] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.150036] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.150081] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.150128] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.150173] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.150217] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.150260] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.150303] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.150346] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.150389] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.150438] (robot_trajectory) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.150483] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.150531] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.150576] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.150621] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.150664] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.150708] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.150752] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.150794] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.150841] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.150885] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.150929] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.150973] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.151017] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.151065] (robot_trajectory) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.151109] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.151152] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.151196] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.151282] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.151330] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.151374] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.151448] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.151544] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.151610] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.151678] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.151753] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.151802] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.151854] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.151907] (robot_trajectory) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.151951] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.151996] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.152048] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.152093] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.152138] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.152238] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.152284] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.152333] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.152379] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.152427] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.152499] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.152548] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.152593] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.152642] (robot_trajectory) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.152689] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.152734] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.152779] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.152824] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.152868] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.152913] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.152956] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.153001] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.153045] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.153097] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.153144] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.153190] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.153235] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.153286] (robot_trajectory) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.153332] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.153376] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.153420] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.153467] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.153512] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.153557] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.153603] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.153649] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.153695] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.153741] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.153786] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.153885] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.153935] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.153985] (robot_trajectory) StderrLine: {'line': b'  241 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.154035] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.154104] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.154158] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.154208] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.154254] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.154300] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.154345] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.154391] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.154437] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.154482] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.154527] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.154571] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.154615] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.154664] (robot_trajectory) StderrLine: {'line': b'  254 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.154709] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.154753] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.154798] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.154842] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.154885] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.154929] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.154972] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.155016] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.155063] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.155108] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.155153] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.155201] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.155245] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.155292] (robot_trajectory) StderrLine: {'line': b'  263 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.155335] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.155378] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.155422] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.155464] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.155507] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.155550] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.155594] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.155636] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.155694] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.155844] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.155920] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.155971] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.156018] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.156066] (robot_trajectory) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.156110] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.156155] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.156201] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.156245] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.156289] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.156337] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.156381] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.156427] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.156496] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.156543] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.156589] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.156633] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.156678] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.156735] (robot_trajectory) StderrLine: {'line': b'  279 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.156780] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.156824] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.156868] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.156912] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.156958] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.157001] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.157046] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.157090] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.157134] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.157179] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.157223] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.157267] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.157311] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.157363] (robot_trajectory) StderrLine: {'line': b'  289 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.157408] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.157452] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.157496] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.157545] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.157592] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.157638] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.157684] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.157728] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.157771] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.157816] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.157861] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.157905] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.157949] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.157995] (robot_trajectory) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.158039] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.158082] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.158126] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.158169] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.158216] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.158260] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.158308] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.158352] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.158399] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.158444] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.158487] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.158531] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.158573] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.158619] (robot_trajectory) StderrLine: {'line': b'  309 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.158663] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.158706] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.158749] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.158793] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.158835] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.158896] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.159052] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.159130] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.159176] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.159222] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.159275] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.159320] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.159367] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.159418] (robot_trajectory) StderrLine: {'line': b'  319 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.159463] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.159507] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.159552] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.159597] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.159640] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.159737] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.159871] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.159936] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.159983] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.160048] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.160095] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.160140] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.160186] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.160235] (robot_trajectory) StderrLine: {'line': b'  329 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.160281] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.160326] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.160374] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:45:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.160421] (robot_trajectory) StderrLine: {'line': b'   45 |   double linear_speed=node->get_parameter("linear_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.160466] (robot_trajectory) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.160510] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:46:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::get<doble>() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.160551] (robot_trajectory) StderrLine: {'line': b'   46 |   double angular_speed=node->get_parameter("angular_speed").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.160589] (robot_trajectory) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.160625] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.160661] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.160697] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.160733] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.160769] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.160805] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.160840] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.160876] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.160919] (robot_trajectory) StderrLine: {'line': b'  148 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.160956] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.160991] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161027] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161065] (robot_trajectory) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161100] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161135] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161171] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161208] (robot_trajectory) StderrLine: {'line': b'  170 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161278] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161331] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161371] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161409] (robot_trajectory) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161446] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161481] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161517] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161553] (robot_trajectory) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161589] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161624] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161659] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161700] (robot_trajectory) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161736] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161771] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161828] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161869] (robot_trajectory) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.161906] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.161944] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.161981] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162019] (robot_trajectory) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162059] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162095] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162131] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162174] (robot_trajectory) StderrLine: {'line': b'  241 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162210] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162245] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162280] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162316] (robot_trajectory) StderrLine: {'line': b'  254 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162351] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162386] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162424] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162462] (robot_trajectory) StderrLine: {'line': b'  263 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162498] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162533] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162568] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162605] (robot_trajectory) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162640] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162675] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162711] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162752] (robot_trajectory) StderrLine: {'line': b'  279 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162787] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162823] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.162858] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162897] (robot_trajectory) StderrLine: {'line': b'  289 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.162934] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.162969] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.163005] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.163043] (robot_trajectory) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.163078] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.163113] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.163149] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.163189] (robot_trajectory) StderrLine: {'line': b'  309 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.163226] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.163262] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.163300] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.163341] (robot_trajectory) StderrLine: {'line': b'  319 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.163377] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.163412] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.163452] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.163490] (robot_trajectory) StderrLine: {'line': b'  329 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.163526] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.163561] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.163599] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:47:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::get<doble>() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.163637] (robot_trajectory) StderrLine: {'line': b'   47 |   double square_length=node->get_parameter("square_length").get_parameter_value().get<doble>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.163683] (robot_trajectory) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.163722] (robot_trajectory) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[1.163758] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.163795] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.163830] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.163866] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.163902] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.163982] (robot_trajectory) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/square_odom.cpp:2\x1b[m\x1b[K:\n'}
+[1.164035] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164075] (robot_trajectory) StderrLine: {'line': b'  148 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164111] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164147] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164183] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164222] (robot_trajectory) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164268] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164307] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164344] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164383] (robot_trajectory) StderrLine: {'line': b'  170 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164419] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164456] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164492] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164535] (robot_trajectory) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164572] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164655] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164700] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164740] (robot_trajectory) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164777] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164813] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164850] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.164889] (robot_trajectory) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.164926] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.164962] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.164998] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165039] (robot_trajectory) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165075] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165111] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165147] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165184] (robot_trajectory) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165220] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165255] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165291] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165360] (robot_trajectory) StderrLine: {'line': b'  241 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165410] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165446] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165482] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165519] (robot_trajectory) StderrLine: {'line': b'  254 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165555] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165591] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165627] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165665] (robot_trajectory) StderrLine: {'line': b'  263 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165701] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165736] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165778] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165823] (robot_trajectory) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.165861] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.165897] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.165933] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.165972] (robot_trajectory) StderrLine: {'line': b'  279 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166007] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166043] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.166079] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166116] (robot_trajectory) StderrLine: {'line': b'  289 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166152] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166187] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.166223] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166266] (robot_trajectory) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166303] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166338] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.166374] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166411] (robot_trajectory) StderrLine: {'line': b'  309 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166446] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166485] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.166522] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166559] (robot_trajectory) StderrLine: {'line': b'  319 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166595] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166630] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.166665] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166702] (robot_trajectory) StderrLine: {'line': b'  329 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[1.166737] (robot_trajectory) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.166771] (robot_trajectory) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.201655] (-) TimerEvent: {}
+[1.301929] (-) TimerEvent: {}
+[1.402193] (-) TimerEvent: {}
+[1.502465] (-) TimerEvent: {}
+[1.602734] (-) TimerEvent: {}
+[1.703011] (-) TimerEvent: {}
+[1.803286] (-) TimerEvent: {}
+[1.903573] (-) TimerEvent: {}
+[2.003874] (-) TimerEvent: {}
+[2.104174] (-) TimerEvent: {}
+[2.204452] (-) TimerEvent: {}
+[2.304720] (-) TimerEvent: {}
+[2.404982] (-) TimerEvent: {}
+[2.505244] (-) TimerEvent: {}
+[2.525904] (robot_trajectory) StderrLine: {'line': b'make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/square_odom.cpp.o] Error 1\n'}
+[2.526165] (robot_trajectory) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2\n'}
+[2.526485] (robot_trajectory) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.528378] (robot_trajectory) CommandEnded: {'returncode': 2}
+[2.568403] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 2}
+[2.579346] (-) EventReactorShutdown: {}
