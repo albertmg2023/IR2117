@@ -20,11 +20,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
-add_executable(square_param square_param.cpp)
-ament_target_dependencies(square_param rclcpp geometry_msgs)
+add_executable(square_odom square_odom.cpp)
+ament_target_dependencies(square_odom rclcpp geometry_msgs)
 
 install(TARGETS
-	square_param
+	square_odom
 	DESTINATION lib/${PROJECT_NAME}
 )
 # uncomment the following section in order to fill in

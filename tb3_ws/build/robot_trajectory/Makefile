@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named square_param
+# Target rules for targets named square_odom
 
 # Build rule for target.
-square_param: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 square_param
-.PHONY : square_param
+square_odom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 square_odom
+.PHONY : square_odom
 
 # fast build rule for target.
-square_param/fast:
-	$(MAKE) -f CMakeFiles/square_param.dir/build.make CMakeFiles/square_param.dir/build
-.PHONY : square_param/fast
+square_odom/fast:
+	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/build
+.PHONY : square_odom/fast
 
 #=============================================================================
 # Target rules for targets named robot_trajectory_uninstall
@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-square_param.o: square_param.cpp.o
+square_odom.o: square_odom.cpp.o
 
-.PHONY : square_param.o
+.PHONY : square_odom.o
 
 # target to build an object file
-square_param.cpp.o:
-	$(MAKE) -f CMakeFiles/square_param.dir/build.make CMakeFiles/square_param.dir/square_param.cpp.o
-.PHONY : square_param.cpp.o
+square_odom.cpp.o:
+	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.o
+.PHONY : square_odom.cpp.o
 
-square_param.i: square_param.cpp.i
+square_odom.i: square_odom.cpp.i
 
-.PHONY : square_param.i
+.PHONY : square_odom.i
 
 # target to preprocess a source file
-square_param.cpp.i:
-	$(MAKE) -f CMakeFiles/square_param.dir/build.make CMakeFiles/square_param.dir/square_param.cpp.i
-.PHONY : square_param.cpp.i
+square_odom.cpp.i:
+	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.i
+.PHONY : square_odom.cpp.i
 
-square_param.s: square_param.cpp.s
+square_odom.s: square_odom.cpp.s
 
-.PHONY : square_param.s
+.PHONY : square_odom.s
 
 # target to generate assembly for a file
-square_param.cpp.s:
-	$(MAKE) -f CMakeFiles/square_param.dir/build.make CMakeFiles/square_param.dir/square_param.cpp.s
-.PHONY : square_param.cpp.s
+square_odom.cpp.s:
+	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.s
+.PHONY : square_odom.cpp.s
 
 # Help Target
 help:
@@ -246,12 +246,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... square_param"
+	@echo "... square_odom"
 	@echo "... robot_trajectory_uninstall"
 	@echo "... uninstall"
-	@echo "... square_param.o"
-	@echo "... square_param.i"
-	@echo "... square_param.s"
+	@echo "... square_odom.o"
+	@echo "... square_odom.i"
+	@echo "... square_odom.s"
 .PHONY : help
 
 
