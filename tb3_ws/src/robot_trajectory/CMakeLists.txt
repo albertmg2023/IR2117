@@ -22,11 +22,11 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 
-add_executable(square_odom square_odom.cpp)
-ament_target_dependencies(square_odom rclcpp nav_msgs geometry_msgs )
+add_executable(wandering wandering.cpp)
+ament_target_dependencies(wandering rclcpp nav_msgs geometry_msgs )
 
 install(TARGETS
-	square_odom
+	wandering
 	DESTINATION lib/${PROJECT_NAME}
 )
 # uncomment the following section in order to fill in
