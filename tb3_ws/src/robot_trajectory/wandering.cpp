@@ -6,17 +6,26 @@
 using namespace std::chrono_literals;
 
 void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg){
- std::cout <<"ranges[0..9]= "<< std::endl<<std::endl;
+  std::cout <<" MIN_ranges[0..9]= ";
+  int min1=msg->ranges[0];
   for(int i=0;i<10;i++){
-  std::cout <<"ranges[ "<<i<<"] = "<< msg->ranges[i] << std::endl;
-  
+  if(msg->ranges[i]<min1){
+  min1=msg->ranges[i];
   }
-  std::cout <<"ranges[350..359]= "<< std::endl<<std::endl;
-  
+  }
+  std::cout <<min1<< std::endl;
+  int min2=msg->ranges[350];
+  std::cout <<"MIN_ranges[350..359]= ";
   for(int j=350;j<360;j++){
-  std::cout <<"ranges[ "<<j<<"] = "<< msg->ranges[j] << std::endl;
+  if(msg->ranges[j]<min2){
+  min2=msg->ranges[j];
   }
-  }		
+  }
+  std::cout <<min2<< std::endl;
+  
+  
+  
+}		
   
 int main(int argc, char * argv[])
 {
