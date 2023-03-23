@@ -5,13 +5,19 @@
 
 using namespace std::chrono_literals;
 
-void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
-{
-  std::cout <<"ranges[0]= "<< msg->ranges[0] << std::endl;
-  std::cout <<"ranges[90]= "<< msg->ranges[90] << std::endl;
-  std::cout <<"ranges[180]= "<< msg->ranges[180] << std::endl;
-  std::cout <<"ranges[270]= "<< msg->ranges[270] << std::endl;
-}
+void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg){
+ std::cout <<"ranges[0..9]= "<< std::endl<<std::endl;
+  for(int i=0;i<10;i++){
+  std::cout <<"ranges[ "<<i<<"] = "<< msg->ranges[i] << std::endl;
+  
+  }
+  std::cout <<"ranges[350..359]= "<< std::endl<<std::endl;
+  
+  for(int j=350;j<360;j++){
+  std::cout <<"ranges[ "<<j<<"] = "<< msg->ranges[j] << std::endl;
+  }
+  }		
+  
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
