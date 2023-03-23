@@ -49,6 +49,7 @@ int main(int argc, char * argv[])
   while (rclcpp::ok()) {
     if(stopdelante){
     message.linear.x=0;
+    message.angular.z=-0.5;
     }
     else{
     
