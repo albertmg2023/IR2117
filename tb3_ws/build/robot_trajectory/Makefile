@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named square_odom
+# Target rules for targets named wandering
 
 # Build rule for target.
-square_odom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 square_odom
-.PHONY : square_odom
+wandering: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wandering
+.PHONY : wandering
 
 # fast build rule for target.
-square_odom/fast:
-	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/build
-.PHONY : square_odom/fast
+wandering/fast:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/build
+.PHONY : wandering/fast
 
 #=============================================================================
 # Target rules for targets named robot_trajectory_uninstall
@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-square_odom.o: square_odom.cpp.o
+wandering.o: wandering.cpp.o
 
-.PHONY : square_odom.o
+.PHONY : wandering.o
 
 # target to build an object file
-square_odom.cpp.o:
-	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.o
-.PHONY : square_odom.cpp.o
+wandering.cpp.o:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/wandering.cpp.o
+.PHONY : wandering.cpp.o
 
-square_odom.i: square_odom.cpp.i
+wandering.i: wandering.cpp.i
 
-.PHONY : square_odom.i
+.PHONY : wandering.i
 
 # target to preprocess a source file
-square_odom.cpp.i:
-	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.i
-.PHONY : square_odom.cpp.i
+wandering.cpp.i:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/wandering.cpp.i
+.PHONY : wandering.cpp.i
 
-square_odom.s: square_odom.cpp.s
+wandering.s: wandering.cpp.s
 
-.PHONY : square_odom.s
+.PHONY : wandering.s
 
 # target to generate assembly for a file
-square_odom.cpp.s:
-	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/square_odom.cpp.s
-.PHONY : square_odom.cpp.s
+wandering.cpp.s:
+	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/wandering.cpp.s
+.PHONY : wandering.cpp.s
 
 # Help Target
 help:
@@ -246,12 +246,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... square_odom"
+	@echo "... wandering"
 	@echo "... robot_trajectory_uninstall"
 	@echo "... uninstall"
-	@echo "... square_odom.o"
-	@echo "... square_odom.i"
-	@echo "... square_odom.s"
+	@echo "... wandering.o"
+	@echo "... wandering.i"
+	@echo "... wandering.s"
 .PHONY : help
 
 

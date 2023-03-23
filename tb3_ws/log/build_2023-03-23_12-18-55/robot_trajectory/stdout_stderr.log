@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target wandering[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wandering.dir/wandering.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:8:45:[m[K [01;31m[Kerror: [m[K‘[01m[KLaser_Scan[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KLaserScan[m[K’?
+    8 | void topic_callback(const sensor_msgs::msg::[01;31m[KLaser_Scan[m[K::SharedPtr msg)
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+      |                                             [32m[KLaserScan[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:8:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+    8 | void topic_callback(const sensor_msgs::msg::Laser_Scan::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:8:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+    8 | void topic_callback[34m[K([m[Kconst sensor_msgs::msg::Laser_Scan::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |                    [34m[K~[m[K                                             [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:8:67:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+    8 | void topic_callback(const sensor_msgs::msg::Laser_Scan::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:65:[m[K [01;31m[Kerror: [m[K‘[01m[KLaser_Scan[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KLaserScan[m[K’?
+   17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::[01;31m[KLaser_Scan[m[K>("scan",topic_callback,10);
+      |                                                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                                                 [32m[KLaserScan[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:65:[m[K [01;31m[Kerror: [m[K‘[01m[KLaser_Scan[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KLaserScan[m[K’?
+   17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::[01;31m[KLaser_Scan[m[K>("scan",topic_callback,10);
+      |                                                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                                                 [32m[KLaserScan[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ was not declared in this scope
+   17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::Laser_Scan>("scan",[01;31m[Ktopic_callback[m[K,10);
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/wandering.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wandering.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

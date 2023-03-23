@@ -1,0 +1,27 @@
+[0.032s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.110s] [35m[1mScanning dependencies of target wandering[0m
+[0.167s] [ 50%] [32mBuilding CXX object CMakeFiles/wandering.dir/wandering.cpp.o[0m
+[1.179s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.179s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.179s]    16 |   auto publisher = [01;31m[Knode[m[K->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+[1.179s]       |                    [01;31m[K^~~~[m[K
+[1.179s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:16:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.179s]    16 |   auto publisher = node->create_publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K("cmd_vel", 10);
+[1.179s]       |                                                                    [01;31m[K^[m[K
+[1.179s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:16:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.179s]    16 |   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>([01;35m[K"cmd_vel"[m[K, 10);
+[1.179s]       |                                                                      [01;35m[K^~~~~~~~~[m[K
+[1.179s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.179s]    17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::LaserScan[01;31m[K>[m[K("scan",topic_callback,10);
+[1.179s]       |                                                                          [01;31m[K^[m[K
+[1.180s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.180s]    17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::LaserScan>([01;35m[K"scan"[m[K,topic_callback,10);
+[1.180s]       |                                                                            [01;35m[K^~~~~~[m[K
+[1.180s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:98:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator is a reference, not call, to function ‘[01m[Ktopic_callback[m[K’ [[01;35m[K-Waddress[m[K]
+[1.180s]    17 |   auto subscriber = node->create_subscription<sensor_msgs::msg::LaserScan>("scan",topic_callback,[01;35m[K10[m[K);
+[1.180s]       |                                                                                                  [01;35m[K^~[m[K
+[1.180s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/wandering.cpp:17:98:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.495s] make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/wandering.cpp.o] Error 1
+[1.495s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wandering.dir/all] Error 2
+[1.496s] make: *** [Makefile:141: all] Error 2
+[1.498s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
