@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/obstacles
+[35m[1mScanning dependencies of target detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/detector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable detector[0m
+[100%] Built target detector
+-- Install configuration: ""
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/lib/obstacles/detector
+-- Set runtime path of "/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/lib/obstacles/detector" to ""
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/launch
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/launch/.gitignore
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/package.dsv
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+-- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+-- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/package.xml

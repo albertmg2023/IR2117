@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/obstacles
+[35m[1mScanning dependencies of target detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/detector.cpp.o[0m
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:[m[K In function ‘[01m[Kvoid callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:15:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_min[m[K’ was not declared in this scope
+   15 |   if((angle>=[01;31m[Kobs_angle_min[m[K) and (angle<=obs_angle_max)){
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:15:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_max[m[K’ was not declared in this scope
+   15 |   if((angle>=obs_angle_min) and (angle<=[01;31m[Kobs_angle_max[m[K)){
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:17:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_distlimite[m[K’ was not declared in this scope
+   17 |    if(range<=[01;31m[Kobs_distlimite[m[K)
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_min[m[K’ was not declared in this scope
+   37 |   [01;31m[Kobs_angle_min[m[K=node->get_parameter("obs_angle_min").get_parameter_value().get<double>();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_max[m[K’ was not declared in this scope
+   38 |   [01;31m[Kobs_angle_max[m[K=node->get_parameter("obs_angle_max").get_parameter_value().get<double>();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_distlimite[m[K’ was not declared in this scope
+   39 |   [01;31m[Kobs_distlimite[m[K=node->get_parameter("obs_distlimite").get_parameter_value().get<double>();
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/detector.dir/build.make:63: CMakeFiles/detector.dir/detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -7,12 +7,14 @@
 #IncludeRegexTransform: 
 
 /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/detector.cpp
+iostream
+-
+math.h
+-
 rclcpp/rclcpp.hpp
 /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp
 /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/sensor_msgs/msg/laser_scan.hpp
-iostream
--
 example_interfaces/msg/bool.hpp
 /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/example_interfaces/msg/bool.hpp
 
