@@ -3,7 +3,7 @@
 <package format="2">
   <name>obstacles</name>
   <version>0.0.1</version>
-  <description>Examples of topics publisher and subscriber</description>
+  <description>obstacles detector and avoidance</description>
 
   <maintainer email="ecervera@uji.es">Enric Cervera</maintainer>
 

@@ -181,6 +181,19 @@ detector/fast:
 .PHONY : detector/fast
 
 #=============================================================================
+# Target rules for targets named avoidance
+
+# Build rule for target.
+avoidance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 avoidance
+.PHONY : avoidance
+
+# fast build rule for target.
+avoidance/fast:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/build
+.PHONY : avoidance/fast
+
+#=============================================================================
 # Target rules for targets named obstacles_uninstall
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+avoidance.o: avoidance.cpp.o
+
+.PHONY : avoidance.o
+
+# target to build an object file
+avoidance.cpp.o:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/avoidance.cpp.o
+.PHONY : avoidance.cpp.o
+
+avoidance.i: avoidance.cpp.i
+
+.PHONY : avoidance.i
+
+# target to preprocess a source file
+avoidance.cpp.i:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/avoidance.cpp.i
+.PHONY : avoidance.cpp.i
+
+avoidance.s: avoidance.cpp.s
+
+.PHONY : avoidance.s
+
+# target to generate assembly for a file
+avoidance.cpp.s:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/avoidance.cpp.s
+.PHONY : avoidance.cpp.s
 
 detector.o: detector.cpp.o
 
@@ -247,8 +287,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... detector"
+	@echo "... avoidance"
 	@echo "... obstacles_uninstall"
 	@echo "... uninstall"
+	@echo "... avoidance.o"
+	@echo "... avoidance.i"
+	@echo "... avoidance.s"
 	@echo "... detector.o"
 	@echo "... detector.i"
 	@echo "... detector.s"

@@ -1,1 +1,1 @@
-rclcpp;sensor_msgs;example_interfaces
+rclcpp;sensor_msgs;example_interfaces;geometry_msgs
