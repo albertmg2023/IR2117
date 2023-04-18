@@ -1,0 +1,22 @@
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/avoidance.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/avoidance.cpp:82:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::GenericRate<std::chrono::_V2::steady_clock>::sleep(std::chrono::milliseconds)[m[K’
+   82 |     loop_rate.sleep(50ms[01;31m[K)[m[K;
+      |                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/avoidance.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/rate.hpp:59:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rclcpp::GenericRate<Clock>::sleep() [with Clock = std::chrono::_V2::steady_clock][m[K’
+   59 |   [01;36m[Ksleep[m[K()
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/rate.hpp:59:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/avoidance.dir/build.make:63: CMakeFiles/avoidance.dir/avoidance.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/avoidance.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

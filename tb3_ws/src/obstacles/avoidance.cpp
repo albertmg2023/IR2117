@@ -37,11 +37,11 @@ int main(int argc, char * argv[])
   auto subs_left=node->create_subscription<example_interfaces::msg::Bool>("/left/obstacle",10,callback_left);
   auto subs_right=node->create_subscription<example_interfaces::msg::Bool>("/right/obstacle",10,callback_right);
   geometry_msgs::msg::Twist message;
-  rclcpp::WallRate loop_rate(500ms);
+  rclcpp::WallRate loop_rate(50ms);
   //aqui introduzco FSM
   while (rclcpp::ok()) {
 
-    if(obstacle_front){
+    if(obstacle_front==true){
 
       message.linear.x=0.0;
       if(obstacle_left && !obstacle_right){
