@@ -151,6 +151,43 @@ int main(int argc, char * argv[])
   }
   message.angular.z=0;
   message.linear.x=0;
+//circulo 4(amarillo)
+
+requestsetpen = std::make_shared<turtlesim::srv::SetPen::Request>();
+  requestsetpen->width = 0;
+  requestsetpen->off = 255;
+  resultsetpen = clientsetpen->async_send_request(requestsetpen);
+  //teletransporta a posicion del circulo4
+  reqteleportabs = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+
+  reqteleportabs->x=2.5+radius+(radius/6);
+  reqteleportabs->y=6.0-radius;
+  reqteleportabs->theta=0;
+
+  resultteleportabs = cliteleportabs->async_send_request(reqteleportabs);
+  //lapiz abajo y color amrillo
+  
+
+  requestsetpen = std::make_shared<turtlesim::srv::SetPen::Request>();
+  requestsetpen->r = 255;
+  requestsetpen->g = 255;
+  requestsetpen->b =0;
+  requestsetpen->width = 2;
+  requestsetpen->off = 0;
+  resultsetpen = clientsetpen->async_send_request(requestsetpen);
+  //dibujacirculo4
+  j=0;
+  while (rclcpp::ok() && (j<m)) {
+    message.angular.z=w;
+    message.linear.x=vl;
+    publisher->publish(message);
+    rclcpp::spin_some(node);
+    loop_rate.sleep();
+    j+=1;
+  }
+  message.angular.z=0;
+  message.linear.x=0;
+
 
 
 
