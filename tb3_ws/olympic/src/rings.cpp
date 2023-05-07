@@ -45,7 +45,7 @@ int main(int argc, char * argv[])
   reqteleportabs->x=2.5;
   reqteleportabs->y=6.0;
   reqteleportabs->theta=0;
-  
+
   while (!cliteleportabs->wait_for_service(1s)) {
     
   }
@@ -104,6 +104,42 @@ int main(int argc, char * argv[])
   requestsetpen->off = 0;
   resultsetpen = clientsetpen->async_send_request(requestsetpen);
   //dibujacirculo2
+  j=0;
+  while (rclcpp::ok() && (j<m)) {
+    message.angular.z=w;
+    message.linear.x=vl;
+    publisher->publish(message);
+    rclcpp::spin_some(node);
+    loop_rate.sleep();
+    j+=1;
+  }
+  message.angular.z=0;
+  message.linear.x=0;
+
+  //tercer circulo(rojo)
+  requestsetpen = std::make_shared<turtlesim::srv::SetPen::Request>();
+  requestsetpen->width = 0;
+  requestsetpen->off = 255;
+  resultsetpen = clientsetpen->async_send_request(requestsetpen);
+  //teletransporta a posicion del circulo3
+  reqteleportabs = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+
+  reqteleportabs->x=2.5+2*((radius*2)+(radius/6));
+  reqteleportabs->y=6.0;
+  reqteleportabs->theta=0;
+
+  resultteleportabs = cliteleportabs->async_send_request(reqteleportabs);
+  //lapiz abajo y color rojo
+  
+
+  requestsetpen = std::make_shared<turtlesim::srv::SetPen::Request>();
+  requestsetpen->r = 255;
+  requestsetpen->g = 0;
+  requestsetpen->b = 0;
+  requestsetpen->width = 2;
+  requestsetpen->off = 0;
+  resultsetpen = clientsetpen->async_send_request(requestsetpen);
+  //dibujacirculo3
   j=0;
   while (rclcpp::ok() && (j<m)) {
     message.angular.z=w;
