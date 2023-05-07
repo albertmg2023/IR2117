@@ -1,0 +1,24 @@
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:26:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   26 |  rclcpp::Client<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr clientsetpen =
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Krcl_interfaces[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:26:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |  rclcpp::Client<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr clientsetpen =
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:26:65:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclientsetpen[m[K’
+   26 |  rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kclientsetpen[m[K =
+      |                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:29:63:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   29 |   auto requestsetpen = std::make_shared<turtlesim::srv::SetPen[01;31m[K:[m[KRequest>();
+      |                                                               [01;31m[K^[m[K
+      |                                                               [32m[K::[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:38:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   38 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   46 |   auto resultsetpen = [01;31m[Kclient[m[K->async_send_request(requestsetpen);
+      |                       [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

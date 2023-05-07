@@ -1,6 +1,7 @@
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include "turtlesim/srv/set_pen.hpp"
 #include <cmath>
 
 using namespace std::chrono_literals;
@@ -20,6 +21,34 @@ int main(int argc, char * argv[])
  double vl=radius*w;
  int j=0;
  double m=(M_PI*2)/(w*slooprate);
+
+ //el cliente de  setpen
+ rclcpp::Client<turtlesim::srv::SetPen>::SharedPtr clientsetpen =node->create_client<turtlesim::srv::SetPen>("/turtle1/set_pen");
+
+  auto requestsetpen = std::make_shared<turtlesim::srv::SetPen::Request>();
+  requestsetpen->r = 255;
+  requestsetpen->g = 255;
+  requestsetpen->b = 0;
+  requestsetpen->width = 2;
+  requestsetpen->off = 0;
+
+
+
+  while (!clientsetpen->wait_for_service(1s)) {
+    if (!rclcpp::ok()) {
+      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
+      return 0;
+    }
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
+  }
+
+  auto resultsetpen = clientsetpen->async_send_request(requestsetpen);
+  // Wait for the result.
+
+  
+
+
+
 
   while (rclcpp::ok() && (j<m)) {
     message.angular.z=w;
