@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.069s] [35m[1mScanning dependencies of target rings[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o[0m
+[1.238s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.238s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:50:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto requestsetpen[m[K’
+[1.238s]    50 |   auto [01;31m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.238s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.238s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:29:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<turtlesim::srv::SetPen_Request_<std::allocator<void> > > requestsetpen[m[K’
+[1.239s]    29 |   auto [01;36m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.239s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[1.247s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:76:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto requestsetpen[m[K’
+[1.247s]    76 |   auto [01;31m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.247s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.247s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:29:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<turtlesim::srv::SetPen_Request_<std::allocator<void> > > requestsetpen[m[K’
+[1.247s]    29 |   auto [01;36m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.247s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[1.248s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:81:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto reqteleportabs[m[K’
+[1.248s]    81 |   auto [01;31m[Kreqteleportabs[m[K = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+[1.248s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.248s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:40:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > > reqteleportabs[m[K’
+[1.248s]    40 |   auto [01;36m[Kreqteleportabs[m[K = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+[1.248s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.249s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:91:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto requestsetpen[m[K’
+[1.249s]    91 |   auto [01;31m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.249s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.249s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:29:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<turtlesim::srv::SetPen_Request_<std::allocator<void> > > requestsetpen[m[K’
+[1.249s]    29 |   auto [01;36m[Krequestsetpen[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+[1.249s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[2.265s] make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+[2.269s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2
+[2.269s] make: *** [Makefile:141: all] Error 2
+[2.269s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
