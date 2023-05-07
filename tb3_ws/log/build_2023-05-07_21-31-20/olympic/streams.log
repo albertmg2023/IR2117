@@ -1,0 +1,93 @@
+[0.024s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.068s] [35m[1mScanning dependencies of target rings[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o[0m
+[1.210s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.211s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:5:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.211s]   230 | int [01;35m[K[[m[K] posx={2.5,(2.5+(radius*2)+(radius/6)),(2.5+2*((radius*2)+(radius/6))),(2.5+radius+(radius/6)),(2.5+radius+(radius/6)+(radius*2)+(radius/6))};
+[1.211s]       |     [01;35m[K^[m[K
+[1.211s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:5:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kint[m[K’
+[1.211s]   230 | int [01;31m[K[][m[K posx={2.5,(2.5+(radius*2)+(radius/6)),(2.5+2*((radius*2)+(radius/6))),(2.5+radius+(radius/6)),(2.5+radius+(radius/6)+(radius*2)+(radius/6))};
+[1.211s]       |     [01;31m[K^~[m[K
+[1.211s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:5:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.211s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:5:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[1.211s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:8:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kposx[m[K’
+[1.212s]   230 | int [] [01;31m[Kposx[m[K={2.5,(2.5+(radius*2)+(radius/6)),(2.5+2*((radius*2)+(radius/6))),(2.5+radius+(radius/6)),(2.5+radius+(radius/6)+(radius*2)+(radius/6))};
+[1.212s]       |        [01;31m[K^~~~[m[K
+[1.212s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:5:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.212s]   231 | int [01;35m[K[[m[K] posy={6,6,6,6-radius,6-radius};
+[1.212s]       |     [01;35m[K^[m[K
+[1.212s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:5:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kint[m[K’
+[1.212s]   231 | int [01;31m[K[][m[K posy={6,6,6,6-radius,6-radius};
+[1.212s]       |     [01;31m[K^~[m[K
+[1.212s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:5:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.212s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:5:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[1.213s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:8:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kposy[m[K’
+[1.213s]   231 | int [] [01;31m[Kposy[m[K={6,6,6,6-radius,6-radius};
+[1.213s]       |        [01;31m[K^~~~[m[K
+[1.213s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:5:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.213s]   232 | int [01;35m[K[[m[K] r={50,0,255,255,20};
+[1.213s]       |     [01;35m[K^[m[K
+[1.213s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:5:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kint[m[K’
+[1.214s]   232 | int [01;31m[K[][m[K r={50,0,255,255,20};
+[1.214s]       |     [01;31m[K^~[m[K
+[1.214s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:5:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.214s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:5:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[1.214s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:8:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kr[m[K’
+[1.214s]   232 | int [] [01;31m[Kr[m[K={50,0,255,255,20};
+[1.214s]       |        [01;31m[K^[m[K
+[1.215s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:5:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.215s]   233 | int [01;35m[K[[m[K] g={0,0,0,255,255};
+[1.215s]       |     [01;35m[K^[m[K
+[1.215s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:5:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kint[m[K’
+[1.215s]   233 | int [01;31m[K[][m[K g={0,0,0,255,255};
+[1.215s]       |     [01;31m[K^~[m[K
+[1.216s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:5:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.216s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:5:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[1.216s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:8:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kg[m[K’
+[1.216s]   233 | int [] [01;31m[Kg[m[K={0,0,0,255,255};
+[1.216s]       |        [01;31m[K^[m[K
+[1.217s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:5:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.218s]   234 | int [01;35m[K[[m[K] b={255,0,0,0,0};
+[1.218s]       |     [01;35m[K^[m[K
+[1.218s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:5:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kint[m[K’
+[1.218s]   234 | int [01;31m[K[][m[K b={255,0,0,0,0};
+[1.218s]       |     [01;31m[K^~[m[K
+[1.218s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:5:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.218s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:5:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[1.218s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:8:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kb[m[K’
+[1.218s]   234 | int [] [01;31m[Kb[m[K={255,0,0,0,0};
+[1.218s]       |        [01;31m[K^[m[K
+[1.239s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:260:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kposx[m[K’ was not declared in this scope
+[1.239s]   260 |   reqteleportabs->x=[01;31m[Kposx[m[K[i];
+[1.239s]       |                     [01;31m[K^~~~[m[K
+[1.240s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:261:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kposy[m[K’ was not declared in this scope
+[1.240s]   261 |   reqteleportabs->y=[01;31m[Kposy[m[K[i];
+[1.240s]       |                     [01;31m[K^~~~[m[K
+[1.242s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:274:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+[1.243s]   274 |   requestsetpen->r = [01;31m[Kr[m[K[i];
+[1.243s]       |                      [01;31m[K^[m[K
+[1.243s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:275:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kg[m[K’ was not declared in this scope
+[1.243s]   275 |   requestsetpen->g = [01;31m[Kg[m[K[i];
+[1.244s]       |                      [01;31m[K^[m[K
+[1.244s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:276:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+[1.244s]   276 |   requestsetpen->b = [01;31m[Kb[m[K[i];
+[1.244s]       |                      [01;31m[K^[m[K
+[1.254s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:230:5:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.254s]   230 | int [01;35m[K[][m[K posx={2.5,(2.5+(radius*2)+(radius/6)),(2.5+2*((radius*2)+(radius/6))),(2.5+radius+(radius/6)),(2.5+radius+(radius/6)+(radius*2)+(radius/6))};
+[1.254s]       |     [01;35m[K^~[m[K
+[1.254s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:231:5:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.254s]   231 | int [01;35m[K[][m[K posy={6,6,6,6-radius,6-radius};
+[1.254s]       |     [01;35m[K^~[m[K
+[1.254s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:232:5:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.254s]   232 | int [01;35m[K[][m[K r={50,0,255,255,20};
+[1.254s]       |     [01;35m[K^~[m[K
+[1.255s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:233:5:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.255s]   233 | int [01;35m[K[][m[K g={0,0,0,255,255};
+[1.255s]       |     [01;35m[K^~[m[K
+[1.255s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:234:5:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.255s]   234 | int [01;35m[K[][m[K b={255,0,0,0,0};
+[1.255s]       |     [01;35m[K^~[m[K
+[2.245s] make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+[2.247s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rings.dir/all] Error 2
+[2.247s] make: *** [Makefile:141: all] Error 2
+[2.250s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
