@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/avoidance.cpp
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/avoidance.cpp
 chrono
 -
 iostream
@@ -14,11 +14,11 @@ iostream
 cstdlib
 -
 rclcpp/rclcpp.hpp
-/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/rclcpp/rclcpp.hpp
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/rclcpp/rclcpp.hpp
 geometry_msgs/msg/twist.hpp
-/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/geometry_msgs/msg/twist.hpp
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/geometry_msgs/msg/twist.hpp
 example_interfaces/msg/bool.hpp
-/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/example_interfaces/msg/bool.hpp
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/example_interfaces/msg/bool.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

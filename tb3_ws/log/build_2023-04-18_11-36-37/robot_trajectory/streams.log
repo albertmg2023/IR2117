@@ -1,8 +1,0 @@
-[0.023s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
-[0.072s] [35m[1mScanning dependencies of target wandering[0m
-[0.187s] [ 50%] [32mBuilding CXX object CMakeFiles/wandering.dir/wandering.cpp.o[0m
-[20.952s] make[2]: *** Se borra el archivo 'CMakeFiles/wandering.dir/wandering.cpp.o'
-[20.952s] make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/wandering.cpp.o] Interrupción
-[20.952s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wandering.dir/all] Interrupción
-[20.953s] make: *** [Makefile:141: all] Interrupción
-[20.954s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
