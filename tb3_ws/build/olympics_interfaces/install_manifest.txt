@@ -1,0 +1,15 @@
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/package_run_dependencies/olympics_interfaces
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/parent_prefix_path/olympics_interfaces
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/ament_prefix_path.sh
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/ament_prefix_path.dsv
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/path.sh
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/path.dsv
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.bash
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.sh
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.zsh
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.dsv
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/package.dsv
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/packages/olympics_interfaces
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfacesConfig.cmake
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfacesConfig-version.cmake
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/package.xml

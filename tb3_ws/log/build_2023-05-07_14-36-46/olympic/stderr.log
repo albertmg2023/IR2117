@@ -1,4 +1,0 @@
-[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvl[m[K’ [[01;35m[K-Wunused-variable[m[K]
-   19 |  double [01;35m[Kvl[m[K=radius*w;
-      |         [01;35m[K^~[m[K

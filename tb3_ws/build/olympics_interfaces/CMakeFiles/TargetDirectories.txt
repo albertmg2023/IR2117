@@ -1,0 +1,9 @@
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/install/strip.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/install/local.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/edit_cache.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/test.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/install.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/list_install_components.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/rebuild_cache.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/olympics_interfaces_uninstall.dir
+/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/uninstall.dir
