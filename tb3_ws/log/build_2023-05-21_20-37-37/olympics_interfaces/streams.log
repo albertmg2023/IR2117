@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces -- -j1 -l1
+[0.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.246s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.384s]   rosidl_generate_interfaces() the passed file 'action/rings.action' doesn't
+[0.384s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.384s]   '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympics_interfaces'
+[0.384s] Call Stack (most recent call first):
+[0.384s]   CMakeLists.txt:35 (rosidl_generate_interfaces)
+[0.384s] 
+[0.384s] 
+[0.385s] -- Configuring incomplete, errors occurred!
+[0.385s] See also "/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces/CMakeFiles/CMakeOutput.log".
+[0.389s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.392s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces -- -j1 -l1
