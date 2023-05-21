@@ -46,13 +46,12 @@ int main(int argc, char ** argv)
   //crea una variable para almacenar un objeto de tipo Goal
   auto goal_msg = Rings::Goal();
   //LE ASIGNA A .order QUE ES LA META DENTRO DE GOAL,LA META REAL QUE QUIERE EL CLIENTE
-  goal_msg.order = 10;
+  goal_msg.radius = 1.0;
 
   RCLCPP_INFO(g_node->get_logger(), 
     "Sending goal");
 
-  auto send_goal_options = 
-    rclcpp_action::Client<Rings>::SendGoalOptions();
+  auto send_goal_options = rclcpp_action::Client<Rings>::SendGoalOptions();
   //Asigna en las opciones del evnvío de meta como función de feedback a la función feedback que hemos creado antes
   send_goal_options.feedback_callback = feedback_callback;
 
