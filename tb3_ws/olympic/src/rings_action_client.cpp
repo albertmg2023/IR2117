@@ -17,13 +17,14 @@ using namespace std::chrono_literals;
 
 rclcpp::Node::SharedPtr g_node = nullptr;
 
-//función que recibe el feedback del server 
+//función que recibe el feedback del server cuando este se está ejecutando en el execute.
 void feedback_callback(GoalHandleRings::SharedPtr,const std::shared_ptr<const Rings::Feedback> feedback)
 {
+  std::stringstream flujo;
+  flujo<<"circulo número "<<feedback->numcirculo<<" con "<<feedback->angulocirculo<<" grados";
   RCLCPP_INFO(
-    g_node->get_logger(),
-    "Next number in sequence received: %" PRId32,
-    feedback->partial_sequence.back());
+    g_node->get_logger(),flujo.str().c_str());
+    
 }
 
 //ejcutar el cliente en bucle 
@@ -32,21 +33,30 @@ int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
   //asigna la variable g_node al nodo cliente
+
   g_node = rclcpp::Node::make_shared("action_client");
+
   //creamos el action client pasandole como parametros el nodo a partir del cual lo creamos y el nombre de la accion
+
   auto action_client = rclcpp_action::create_client<Rings>(
     g_node, "rings");
 
   //si no encuentra el  action server devuelve 1 que es un error
+
   if (!action_client->wait_for_action_server(20s)) {
     RCLCPP_ERROR(g_node->get_logger(), 
       "Action server not available after waiting");
     return 1;
   }
   //crea una variable para almacenar un objeto de tipo Goal
+
   auto goal_msg = Rings::Goal();
+  
+  g_node.declare_parameter("radius",1.0);
+
   //LE ASIGNA A .order QUE ES LA META DENTRO DE GOAL,LA META REAL QUE QUIERE EL CLIENTE
-  goal_msg.radius = 1.0;
+
+  goal_msg.radius = g_node->get_parameter("radius").get_parameter_value().get<double>();
 
   RCLCPP_INFO(g_node->get_logger(), 
     "Sending goal");
@@ -56,8 +66,11 @@ int main(int argc, char ** argv)
   send_goal_options.feedback_callback = feedback_callback;
 
   //envía al server el goal_msg que contiene la meta y le pasa también la función send_goal_options para actualizar la opción de feedback metida(pregunta alservidor para que logre la meta)
-  auto goal_handle_future = action_client->async_send_goal(goal_msg, send_goal_options);
-  //espera hasta que la meta sea alcanzada o no
+
+  auto goal_handle_future = action_client->async_send_goal(goal_msg,send_goal_options);
+
+  //espera hasta que la meta sea aceptada o no 
+
   auto return_code = rclcpp::spin_until_future_complete(g_node,goal_handle_future);
 
   //SI HAY UN ERROR en el envío de la meta
@@ -70,8 +83,11 @@ int main(int argc, char ** argv)
   }
   
   //Acordemonos que GoalHandleFibonacci::SharedPtr es el manejo de la meta del cliente
+
   GoalHandleRings::SharedPtr goal_handle = goal_handle_future.get();
+
   //SI LA META HA SIDO RECHAZADA POR EL SERVIDOR
+
   if (!goal_handle) {
     RCLCPP_ERROR(g_node->get_logger(), 
       "Goal was rejected by server");
@@ -79,6 +95,7 @@ int main(int argc, char ** argv)
     return 1;
   }
   //si la meta no has sido rechazada 
+  
   auto result_future = action_client->async_get_result(goal_handle);
 
   RCLCPP_INFO(g_node->get_logger(), "Waiting for result");
