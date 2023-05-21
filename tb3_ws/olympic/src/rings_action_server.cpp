@@ -174,6 +174,14 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
       message.linear.x=vl;
       publisher->publish(message);
       rclcpp::spin_some(node);
+      ang=m/j;
+      if(ang==90 or ang=180 or ang=270){
+        angulocirculo=ang;
+        goal_handle->publish_feedback(feedback);
+        RCLCPP_INFO(rclcpp::get_logger("server"), 
+          "Publish Feedback");
+      
+      }
       loop_rate.sleep();
       j+=1;
     }
@@ -182,24 +190,15 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
 
 
   }
-
-  rclcpp::shutdown();
-  return 0;
+  if (rclcpp::ok()) {
+    result->rings_completed = numcirculo;
+    goal_handle->succeed(result);
+    RCLCPP_INFO(rclcpp::get_logger("server"), 
+      "Meta alcanzada,se han dibujado los 5 circulos");
   }
-
-  
-
-
-
-
-
-  
-  
-  
-
-
   
 }
+
 
 //CREACIÓN DEL ACTION SERVER
 int main(int argc, char ** argv)
