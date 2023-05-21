@@ -22,7 +22,7 @@ using GoalHandleRings = rclcpp_action::ServerGoalHandle<Rings>;
 rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<const Rings::Goal> goal)
 {
   RCLCPP_INFO(rclcpp::get_logger("server"), 
-    "Got goal request with order %d", goal->order);
+    "Got goal request with order %.*f", goal->radius);
   (void)uuid;
   //devuelve función que acepta la nueva meta y la ejecuta
   return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
@@ -53,6 +53,29 @@ void handle_accepted(const std::shared_ptr<GoalHandleRings> goal_handle)
 //función que se le pasa una meta y procede a hacer todo el proceso de feedback,hasta la respuesta
 void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
 {
+  RCLCPP_INFO(rclcpp::get_logger("server"), 
+    "Executing goal");
+  //define el loop rate
+  rclcpp::Rate loop_rate(0.5);
+
+  auto radius = goal_handle->get_goal()->radius;
+  auto result = std::make_shared<Rings::Result>();
+  
+  if (goal_handle->is_canceling()) {
+      result->sequence = sequence;
+      goal_handle->canceled(result);
+      RCLCPP_INFO(rclcpp::get_logger("server"), 
+        "Goal Canceled");
+      return;
+  }
+  if (rclcpp::ok()){
+    goal_handle->succeed(result);
+    RCLCPP_INFO(rclcpp::get_logger("server"), 
+      "Goal Succeeded");
+  }
+  
+
+
   
 }
 
