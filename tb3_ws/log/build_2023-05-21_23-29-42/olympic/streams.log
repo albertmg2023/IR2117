@@ -1,0 +1,8 @@
+[0.017s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.092s] [ 33%] Built target rings_action_client
+[0.103s] [35m[1mScanning dependencies of target rings_action_server[0m
+[0.124s] [ 50%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+[0.789s] make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Interrupción
+[0.789s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Interrupción
+[0.789s] make: *** [Makefile:141: all] Interrupción
+[0.798s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '-2': CMAKE_PREFIX_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympic:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/obstacles:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1

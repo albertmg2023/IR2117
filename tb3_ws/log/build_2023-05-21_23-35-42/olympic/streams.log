@@ -1,0 +1,21 @@
+[0.025s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.093s] [ 33%] Built target rings_action_client
+[0.104s] [35m[1mScanning dependencies of target rings_action_server[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+[1.355s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kvoid execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympics_interfaces::action::Rings> >)[m[K’:
+[1.355s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:182:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+[1.355s]   182 |       [01;31m[Kelse[m[K if(j==((m/4)+(m/4)/2)){
+[1.355s]       |       [01;31m[K^~~~[m[K
+[1.355s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:179:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.355s]   179 |       else if(j==((m/4)/2))[01;36m[K{[m[K
+[1.355s]       |                            [01;36m[K^[m[K
+[1.355s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:185:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+[1.355s]   185 |       [01;31m[Kelse[m[K if(j==m/2){
+[1.356s]       |       [01;31m[K^~~~[m[K
+[1.356s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:182:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.356s]   182 |       else if(j==((m/4)+(m/4)/2))[01;36m[K{[m[K
+[1.356s]       |                                  [01;36m[K^[m[K
+[2.520s] make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+[2.525s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+[2.525s] make: *** [Makefile:141: all] Error 2
+[2.525s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1

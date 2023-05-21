@@ -86,7 +86,7 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
   double w=0.5;
   double vl=radius*w;
   int j=0;
-  double m=(M_PI*2)/(w*slooprate);
+  int m=(M_PI*2)/(w*slooprate);
 
   double posx[5]={2.5,(2.5+(radius*2)+(radius/6)),(2.5+2*((radius*2)+(radius/6))),(2.5+radius+(radius/6)),(2.5+radius+(radius/6)+(radius*2)+(radius/6))};
   double posy[5]={6,6,6,6-radius,6-radius};
@@ -167,20 +167,39 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
 
     //dibuja circulo
     j=0;
-    double ang=m/360;
     while (rclcpp::ok() && (j<m)) {
       message.angular.z=w;
       message.linear.x=vl;
       publisher->publish(message);
       rclcpp::spin_some(node);
-      ang=m/j;
-      if(ang==90 or ang==180 or ang==270){
+      int ang;
+      if(j==m/4){
+        ang=90;
+      }
+      else if(j==((m/4)/2)){
+        ang=45;
+      }
+      else if(j==((m/4)+(m/4)/2)){
+        ang=135;
+      }
+      else if(j==m/2){
+        ang=180;
+      }
+      else if(j==(m/2)+((m/4)/2)){
+        ang=225;
+      }
+      
+      else if(j==((m/4)+(m/2))){
+        ang=270;
+      }
+
+    
         angulocirculo=ang;
         goal_handle->publish_feedback(feedback);
         RCLCPP_INFO(rclcpp::get_logger("server"), 
           "Publish Feedback");
       
-      }
+      
       loop_rate.sleep();
       j+=1;
     }

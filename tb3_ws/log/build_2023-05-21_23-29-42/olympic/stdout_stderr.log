@@ -1,0 +1,6 @@
+[ 33%] Built target rings_action_client
+[35m[1mScanning dependencies of target rings_action_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Interrupción
+make: *** [Makefile:141: all] Interrupción
