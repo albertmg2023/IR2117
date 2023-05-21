@@ -2,16 +2,14 @@
 
 #include <inttypes.h>
 #include <memory>
-#include "action_tutorials_interfaces/action/fibonacci.hpp"
+#include "olympics_interfaces/action/Rings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
 //renombramiento de los objetos complejos por otros más simples
-using Fibonacci = 
-  action_tutorials_interfaces::action::Fibonacci;
+using Rings = olympics_interfaces::action::Rings;
 
-using GoalHandleFibonacci =
-  rclcpp_action::ClientGoalHandle<Fibonacci>;
+using GoalHandleRings =rclcpp_action::ClientGoalHandle<Rings>;
 
 using namespace std::chrono_literals;
 
@@ -20,7 +18,7 @@ using namespace std::chrono_literals;
 rclcpp::Node::SharedPtr g_node = nullptr;
 
 //función que recibe el feedback del server 
-void feedback_callback(GoalHandleFibonacci::SharedPtr,const std::shared_ptr<const Fibonacci::Feedback> feedback)
+void feedback_callback(GoalHandleRings::SharedPtr,const std::shared_ptr<const Rings::Feedback> feedback)
 {
   RCLCPP_INFO(
     g_node->get_logger(),
@@ -36,8 +34,8 @@ int main(int argc, char ** argv)
   //asigna la variable g_node al nodo cliente
   g_node = rclcpp::Node::make_shared("action_client");
   //creamos el action client pasandole como parametros el nodo a partir del cual lo creamos y el nombre de la accion
-  auto action_client = rclcpp_action::create_client<Fibonacci>(
-    g_node, "fibonacci");
+  auto action_client = rclcpp_action::create_client<Rings>(
+    g_node, "rings");
 
   //si no encuentra el  action server devuelve 1 que es un error
   if (!action_client->wait_for_action_server(20s)) {
@@ -46,7 +44,7 @@ int main(int argc, char ** argv)
     return 1;
   }
   //crea una variable para almacenar un objeto de tipo Goal
-  auto goal_msg = Fibonacci::Goal();
+  auto goal_msg = Rings::Goal();
   //LE ASIGNA A .order QUE ES LA META DENTRO DE GOAL,LA META REAL QUE QUIERE EL CLIENTE
   goal_msg.order = 10;
 
@@ -54,7 +52,7 @@ int main(int argc, char ** argv)
     "Sending goal");
 
   auto send_goal_options = 
-    rclcpp_action::Client<Fibonacci>::SendGoalOptions();
+    rclcpp_action::Client<Rings>::SendGoalOptions();
   //Asigna en las opciones del evnvío de meta como función de feedback a la función feedback que hemos creado antes
   send_goal_options.feedback_callback = feedback_callback;
 
@@ -73,7 +71,7 @@ int main(int argc, char ** argv)
   }
   
   //Acordemonos que GoalHandleFibonacci::SharedPtr es el manejo de la meta del cliente
-  GoalHandleFibonacci::SharedPtr goal_handle = goal_handle_future.get();
+  GoalHandleRings::SharedPtr goal_handle = goal_handle_future.get();
   //SI LA META HA SIDO RECHAZADA POR EL SERVIDOR
   if (!goal_handle) {
     RCLCPP_ERROR(g_node->get_logger(), 
@@ -86,8 +84,7 @@ int main(int argc, char ** argv)
 
   RCLCPP_INFO(g_node->get_logger(), "Waiting for result");
 
-  return_code = rclcpp::spin_until_future_complete(g_node, 
-    result_future);
+  return_code = rclcpp::spin_until_future_complete(g_node, result_future);
   //si se ha producio un error en el envío del result
   if (return_code != rclcpp::FutureReturnCode::SUCCESS)
   {
@@ -96,7 +93,7 @@ int main(int argc, char ** argv)
     return 1;
   }
 
-  GoalHandleFibonacci::WrappedResult wrapped_result = 
+  GoalHandleRings::WrappedResult wrapped_result = 
     result_future.get();
 
   switch (wrapped_result.code) {
