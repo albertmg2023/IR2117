@@ -1,0 +1,117 @@
+[0.006s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces -- -j1 -l1
+[0.062s] [  3%] Built target olympics_interfaces__cpp
+[0.081s] [ 12%] Built target olympics_interfaces__rosidl_typesupport_introspection_cpp
+[0.102s] [ 22%] Built target olympics_interfaces__rosidl_generator_c
+[0.128s] [ 32%] Built target olympics_interfaces__rosidl_typesupport_introspection_c
+[0.147s] [ 41%] Built target olympics_interfaces__rosidl_typesupport_cpp
+[0.170s] [ 51%] Built target olympics_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.191s] [ 61%] Built target olympics_interfaces__rosidl_typesupport_fastrtps_c
+[0.209s] [ 70%] Built target olympics_interfaces__rosidl_typesupport_c
+[0.226s] [ 70%] Built target olympics_interfaces
+[0.243s] [ 74%] Built target olympics_interfaces__py
+[0.265s] [ 80%] Built target olympics_interfaces__python
+[0.287s] [ 87%] Built target olympics_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.307s] [ 93%] Built target olympics_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.330s] [100%] Built target olympics_interfaces__rosidl_typesupport_c__pyext
+[0.341s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces -- -j1 -l1
+[0.388s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces
+[0.397s] -- Install configuration: ""
+[0.397s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/rosidl_interfaces/olympics_interfaces
+[0.397s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/rings.h
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__struct.h
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__functions.c
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__functions.h
+[0.398s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__type_support.h
+[0.399s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/library_path.sh
+[0.399s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/library_path.dsv
+[0.399s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_generator_c.so
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.400s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__rosidl_typesupport_fastrtps_c.h
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.401s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__rosidl_typesupport_fastrtps_cpp.hpp
+[0.402s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/dds_fastrtps
+[0.402s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.402s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.402s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg
+[0.402s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.403s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.403s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.403s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__rosidl_typesupport_introspection_c.h
+[0.403s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__type_support.c
+[0.403s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_introspection_c.so
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_c.so
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__builder.hpp
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__struct.hpp
+[0.404s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__traits.hpp
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/rings.hpp
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__rosidl_typesupport_introspection_cpp.hpp
+[0.405s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/include/olympics_interfaces/action/detail/rings__type_support.cpp
+[0.406s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.406s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__rosidl_typesupport_cpp.so
+[0.406s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/pythonpath.sh
+[0.406s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/pythonpath.dsv
+[0.407s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/__init__.py
+[0.433s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/action
+[0.434s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/action/_rings.py
+[0.434s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/action/_rings_s.c
+[0.434s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/action/__init__.py
+[0.434s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/olympics_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.435s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/olympics_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.436s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages/olympics_interfaces/olympics_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.436s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/libolympics_interfaces__python.so
+[0.436s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/action/Rings.idl
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/action/Rings.action
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/package_run_dependencies/olympics_interfaces
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/parent_prefix_path/olympics_interfaces
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/ament_prefix_path.sh
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/ament_prefix_path.dsv
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/path.sh
+[0.437s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/environment/path.dsv
+[0.438s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.bash
+[0.438s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.sh
+[0.438s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.zsh
+[0.438s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/local_setup.dsv
+[0.438s] -- Installing: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/package.dsv
+[0.439s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/ament_index/resource_index/packages/olympics_interfaces
+[0.439s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_generator_cExport.cmake
+[0.439s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.439s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.439s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.440s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_cExport.cmake
+[0.440s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.440s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_generator_cppExport.cmake
+[0.440s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.441s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.441s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_cppExport.cmake
+[0.441s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.441s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.441s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfacesConfig.cmake
+[0.442s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake/olympics_interfacesConfig-version.cmake
+[0.443s] -- Up-to-date: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/package.xml
+[0.448s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympics_interfaces

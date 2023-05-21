@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.064s] [35m[1mScanning dependencies of target rings_action_client[0m
+[0.086s] [ 16%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[1.181s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympics_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympics_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[1.181s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:24:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympics_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympics_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knumcirculo[m[K’
+[1.181s]    24 |   flujo<<"circulo número "<<feedback->[01;31m[Knumcirculo[m[K<<" con "<<feedback->angulocirculo<<" grados";
+[1.181s]       |                                        [01;31m[K^~~~~~~~~~[m[K
+[1.182s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:24:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympics_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympics_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangulocirculo[m[K’
+[1.182s]    24 |   flujo<<"circulo número "<<feedback->numcirculo<<" con "<<feedback->[01;31m[Kangulocirculo[m[K<<" grados";
+[1.182s]       |                                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.190s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.190s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:55:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kdeclare_parameter[m[K’
+[1.190s]    55 |   g_node.[01;31m[Kdeclare_parameter[m[K("radius",1.0);
+[1.190s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.202s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:129:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[1.203s]   129 |   for (auto number : wrapped_result.result->[01;31m[Ksequence[m[K) {
+[1.203s]       |                                             [01;31m[K^~~~~~~~[m[K
+[1.909s] make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+[1.913s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+[1.913s] make: *** [Makefile:141: all] Error 2
+[1.914s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1

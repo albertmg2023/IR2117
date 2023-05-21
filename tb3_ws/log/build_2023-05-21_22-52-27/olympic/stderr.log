@@ -1,0 +1,7 @@
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kolympics_interfaces/action/Rings.hpp: No existe el archivo o el directorio
+    5 | #include [01;31m[K"olympics_interfaces/action/Rings.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

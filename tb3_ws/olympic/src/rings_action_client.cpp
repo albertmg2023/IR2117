@@ -2,7 +2,7 @@
 
 #include <inttypes.h>
 #include <memory>
-#include "olympics_interfaces/action/Rings.hpp"
+#include "olympics_interfaces/action/rings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
@@ -21,7 +21,7 @@ rclcpp::Node::SharedPtr g_node = nullptr;
 void feedback_callback(GoalHandleRings::SharedPtr,const std::shared_ptr<const Rings::Feedback> feedback)
 {
   std::stringstream flujo;
-  flujo<<"circulo número "<<feedback->numcirculo<<" con "<<feedback->angulocirculo<<" grados";
+  flujo<<"circulo número "<<feedback->drawing_ring<<" con "<<feedback->ring_angle<<" grados";
   RCLCPP_INFO(
     g_node->get_logger(),flujo.str().c_str());
     
@@ -52,7 +52,7 @@ int main(int argc, char ** argv)
 
   auto goal_msg = Rings::Goal();
   
-  g_node.declare_parameter("radius",1.0);
+  g_node->declare_parameter("radius",1.0);
 
   //LE ASIGNA A .order QUE ES LA META DENTRO DE GOAL,LA META REAL QUE QUIERE EL CLIENTE
 
@@ -95,7 +95,7 @@ int main(int argc, char ** argv)
     return 1;
   }
   //si la meta no has sido rechazada 
-  
+
   auto result_future = action_client->async_get_result(goal_handle);
 
   RCLCPP_INFO(g_node->get_logger(), "Waiting for result");
@@ -126,10 +126,7 @@ int main(int argc, char ** argv)
       return 1;
   }
   RCLCPP_INFO(g_node->get_logger(), "result received");
-  for (auto number : wrapped_result.result->sequence) {
-    RCLCPP_INFO(g_node->get_logger(), "%" PRId32, number);
-  }
-
+  
   action_client.reset();
   g_node.reset();
   rclcpp::shutdown();

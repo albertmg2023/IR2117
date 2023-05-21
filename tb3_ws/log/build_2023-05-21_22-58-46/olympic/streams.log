@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[0.070s] [35m[1mScanning dependencies of target rings_action_client[0m
+[0.090s] [ 16%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[2.607s] [ 33%] [32m[1mLinking CXX executable rings_action_client[0m
+[2.733s] [ 33%] Built target rings_action_client
+[2.742s] [35m[1mScanning dependencies of target rings_action_server[0m
+[2.779s] [ 50%] [32mBuilding CXX object CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o[0m
+[3.896s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kvoid execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympics_interfaces::action::Rings> >)[m[K’:
+[3.896s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:105:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[3.896s]   105 |       result->[01;31m[Ksequence[m[K = sequence;
+[3.896s]       |               [01;31m[K^~~~~~~~[m[K
+[3.898s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:105:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence[m[K’ was not declared in this scope
+[3.898s]   105 |       result->sequence = [01;31m[Ksequence[m[K;
+[3.898s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.926s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:178:36:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+[3.927s]   178 |       if(ang==90 or ang=180 or ang=[01;31m[K270[m[K){
+[3.927s]       |                                    [01;31m[K^~~[m[K
+[3.928s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:77:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.928s]    77 |   float [01;35m[Kradio[m[K=goal->radius;
+[3.928s]       |         [01;35m[K^~~~~[m[K
+[5.024s] make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+[5.024s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+[5.028s] make: *** [Makefile:141: all] Error 2
+[5.028s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1

@@ -4,7 +4,7 @@
 #include <memory>
 #include<cmath>
 //nuestra action creada
-#include "olympics_interfaces/action/Rings.hpp"
+#include "olympics_interfaces/action/rings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -74,7 +74,6 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
   auto & angulocirculo=feedback->ring_angle;
   
   //el radio proviene del manejo de meta del servidor(la meta viene del cliente)
-  float radio=goal->radius;
   
   auto node = rclcpp::Node::make_shared("rings");
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist  >("/turtle1/cmd_vel", 10);
@@ -102,7 +101,7 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
   for(int i=0;i<5;i++){
 
     if (goal_handle->is_canceling()) {
-      result->sequence = sequence;
+      result->rings_completed = numcirculo;
       goal_handle->canceled(result);
       RCLCPP_INFO(rclcpp::get_logger("server"), 
         "Goal Canceled");
@@ -175,7 +174,7 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
       publisher->publish(message);
       rclcpp::spin_some(node);
       ang=m/j;
-      if(ang==90 or ang=180 or ang=270){
+      if(ang==90 or ang==180 or ang==270){
         angulocirculo=ang;
         goal_handle->publish_feedback(feedback);
         RCLCPP_INFO(rclcpp::get_logger("server"), 

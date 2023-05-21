@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic -DCMAKE_INSTALL_PREFIX=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympic
+[0.067s] -- The C compiler identification is GNU 9.4.0
+[0.113s] -- The CXX compiler identification is GNU 9.4.0
+[0.117s] -- Check for working C compiler: /usr/bin/cc
+[0.170s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.171s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.237s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.309s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.566s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.676s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.703s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.818s] -- Looking for pthread.h
+[0.877s] -- Looking for pthread.h - found
+[0.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.935s] -- Looking for pthread_create in pthreads
+[0.979s] -- Looking for pthread_create in pthreads - not found
+[0.979s] -- Looking for pthread_create in pthread
+[1.038s] -- Looking for pthread_create in pthread - found
+[1.039s] -- Found Threads: TRUE  
+[1.177s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.210s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.302s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.336s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.404s] -- Found olympics_interfaces: 0.0.0 (/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/share/olympics_interfaces/cmake)
+[1.458s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.520s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.521s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/include>
+[1.521s] -- Configured cppcheck exclude dirs and/or files: 
+[1.522s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.522s] -- Configured cpplint exclude dirs and/or files: 
+[1.523s] -- Added test 'lint_cmake' to check CMake code style
+[1.524s] -- Added test 'uncrustify' to check C / C++ code style
+[1.524s] -- Configured uncrustify additional arguments: 
+[1.524s] -- Added test 'xmllint' to check XML markup files
+[1.529s] -- Configuring done
+[1.543s] -- Generating done
+[1.545s] -- Build files have been written to: /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic
+[1.554s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic -DCMAKE_INSTALL_PREFIX=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympic
+[1.555s] Invoking command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1
+[1.591s] [35m[1mScanning dependencies of target rings_action_client[0m
+[1.629s] [ 16%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[1.658s] [01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_client.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kolympics_interfaces/action/Rings.hpp: No existe el archivo o el directorio
+[1.658s]     5 | #include [01;31m[K"olympics_interfaces/action/Rings.hpp"[m[K
+[1.658s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.658s] compilation terminated.
+[1.659s] make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+[1.661s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+[1.661s] make: *** [Makefile:141: all] Error 2
+[1.663s] Invoked command in '/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy LD_LIBRARY_PATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/install/olympics_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j1 -l1

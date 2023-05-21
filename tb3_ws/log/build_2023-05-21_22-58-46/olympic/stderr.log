@@ -1,0 +1,16 @@
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kvoid execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympics_interfaces::action::Rings> >)[m[K’:
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:105:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympics_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+  105 |       result->[01;31m[Ksequence[m[K = sequence;
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:105:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence[m[K’ was not declared in this scope
+  105 |       result->sequence = [01;31m[Ksequence[m[K;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:178:36:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+  178 |       if(ang==90 or ang=180 or ang=[01;31m[K270[m[K){
+      |                                    [01;31m[K^~~[m[K
+[01m[K/home/albertgm13/Documentos/GitHub/IR2117/tb3_ws/olympic/src/rings_action_server.cpp:77:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   77 |   float [01;35m[Kradio[m[K=goal->radius;
+      |         [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:63: CMakeFiles/rings_action_server.dir/src/rings_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
